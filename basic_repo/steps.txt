@@ -1,0 +1,12 @@
+git init
+mkdir basic_repo
+cd basic_repo
+git remote add origin https://github.com/giulianam/basic_repo.git
+git config --global user.name giulianam
+git config --global user.email giulianamoro@hotmail.com
+git config --global --list
+git status
+ls
+git add steps.txt
+git commit -m "basic repo"
+git push origin master
